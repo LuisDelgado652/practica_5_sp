@@ -1,16 +1,3 @@
-# Dependencias
-FROM node:19 as deps
-WORKDIR /app
-COPY package.json ./
-RUN npm install
-
-# Pruebas 
-# Build  (TS)
-FROM node:19 as builder
-WORKDIR /app
-COPY --from=deps /app/node_modules ./node_modules
-COPY . .
-RUN npm run test
 
 # Producción (Dependencias)
 FROM node:19 as prod-deps
