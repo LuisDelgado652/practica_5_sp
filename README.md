@@ -1,35 +1,33 @@
-# Evidencia de la funcionalidad de lo desarrollado
-Crear la imagen para testing y ejecución
+# Creamos un respositorio nuevo
 
-![image](https://github.com/LuisDelgado652/integracion_de_sistemas/assets/70380574/da4018d0-9806-44cc-8b29-1faec8257afc)
+# Una vez creado el repositorio agregamos los secrets de usuario y contraseña
 
-  
-Publicando la imagen
+![image](https://github.com/LuisDelgado652/practica_5_sp/assets/70380574/721c4186-4a81-4ec5-9497-ebfba803916c)
 
- ![image](https://github.com/LuisDelgado652/integracion_de_sistemas/assets/70380574/e559ba55-e4b0-4617-b153-44fa9a268990)
+# Para la variable de docker_password agregamos el token que se genera en docker Hub
 
+![image](https://github.com/LuisDelgado652/practica_5_sp/assets/70380574/f94c642b-f1da-48a1-8b81-e411d4be3105)
 
-Descargué la imagen de Docker hub
+# En el proyecto creamos un archivo Dockerfile para crear una imagen del proyecto
 
- ![image](https://github.com/LuisDelgado652/integracion_de_sistemas/assets/70380574/f9bebf3c-5eda-406b-9e0f-e648e18a102b)
+![image](https://github.com/LuisDelgado652/practica_5_sp/assets/70380574/7078d953-8312-4a58-b676-92389ea77e8d)
 
+# Probamos que la imagen funcione correctamente
 
-Creando la imagen de un Docker multistage
+![image](https://github.com/LuisDelgado652/practica_5_sp/assets/70380574/f87c4733-315b-479b-b1ed-d53302109e04)
 
-![image](https://github.com/LuisDelgado652/integracion_de_sistemas/assets/70380574/ab5569c4-f99a-4fa5-a79d-70347ed1231b)
+![image](https://github.com/LuisDelgado652/practica_5_sp/assets/70380574/a0cb6f83-eba3-4b45-a49a-78d139519084)
 
- 
-Publicando la imagen del Docker multistage
+# Configuramos el archivo de Docker image de github
 
-![image](https://github.com/LuisDelgado652/integracion_de_sistemas/assets/70380574/1c62584b-004d-49ca-9aa7-4cfd9fd801da)
- 
- 
-Descargando la imagen del Docker multistage
+![image](https://github.com/LuisDelgado652/practica_5_sp/assets/70380574/201241f4-f4a0-48e6-be00-77b1ec99c9a4)
 
- ![image](https://github.com/LuisDelgado652/integracion_de_sistemas/assets/70380574/94291934-ee2b-4e65-8b81-d9cdeefc2c5a)
+Ahora probamos con cambios realizados en el codigo
 
- 
-Realicé una prueba unitaria a la API de resultado
- 
-![image](https://github.com/LuisDelgado652/integracion_de_sistemas/assets/70380574/f2c78161-225f-4f11-a303-432156f9232b)
+![image](https://github.com/LuisDelgado652/practica_5_sp/assets/70380574/ef1e505d-e875-4faa-b550-3a6c1d254c1b)
+
+# Imagen de prueba en el docker hub del cambio realizado
+
+![image](https://github.com/LuisDelgado652/practica_5_sp/assets/70380574/7ee7ebfc-57e4-4aec-9acc-ebed46b48dec)
+
 
